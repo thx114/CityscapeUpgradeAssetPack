@@ -1,0 +1,310 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.BuildingExtensionPrefab, Game",
+    "name": "College_Expansion",
+    "active": true,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 8,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.ServiceUpgrade, Game",
+                "name": "ServiceUpgrade",
+                "active": true,
+                "m_Buildings": {
+                    "$id": 3,
+                    "$type": "3|Game.Prefabs.BuildingPrefab[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        $fstrref:"UnityGUID:d379d85e0290c1643aea42ffd2e299d3"
+                    ]
+                },
+                "m_UpgradeCost": 500000,
+                "m_XPReward": 200,
+                "m_MaxPlacementOffset": -1
+            },
+            {
+                "$id": 4,
+                "$type": "4|Game.Prefabs.School, Game",
+                "name": "School",
+                "active": true,
+                "m_StudentCapacity": 750,
+                "m_Level": 3,
+                "m_GraduationModifier": 0,
+                "m_StudentWellbeing": 0,
+                "m_StudentHealth": 0
+            },
+            {
+                "$id": 5,
+                "$type": "5|Game.Prefabs.ServiceConsumption, Game",
+                "name": "ServiceConsumption",
+                "active": true,
+                "m_Upkeep": 55000,
+                "m_ElectricityConsumption": 1750,
+                "m_WaterConsumption": 1000,
+                "m_GarbageAccumulation": 1200,
+                "m_TelecomNeed": 0
+            },
+            {
+                "$id": 6,
+                "$type": "6|Game.Prefabs.Pollution, Game",
+                "name": "Pollution",
+                "active": true,
+                "m_GroundPollution": 0,
+                "m_AirPollution": 0,
+                "m_NoisePollution": 3500,
+                "m_ScaleWithRenters": true
+            },
+            {
+                "$id": 7,
+                "$type": "7|Game.Prefabs.UIObject, Game",
+                "name": "UIObject",
+                "active": true,
+                "m_Group": null,
+                "m_Priority": 0,
+                "m_Icon": "coui://customassets/CityscapeUpgradeAssetPack/School/College_Expansion/i.png",
+                "m_LargeIcon": "",
+                "m_IsDebugObject": false
+            },
+            {
+                "$id": 8,
+                "$type": "8|Game.Prefabs.Workplace, Game",
+                "name": "Workplace",
+                "active": true,
+                "m_Workplaces": 10,
+                "m_Complexity": 2,
+                "m_EveningShiftProbability": 0,
+                "m_NightShiftProbability": 0
+            },
+            {
+                "$id": 9,
+                "$type": "9|Game.Prefabs.BuildingTerraformOverride, Game",
+                "name": "BuildingTerraformOverride",
+                "active": true,
+                "m_LevelMinOffset": {
+                    "$type": "10|Unity.Mathematics.float2, Unity.Mathematics",
+                    "x": 1,
+                    "y": 0.8
+                },
+                "m_LevelMaxOffset": {
+                    "$type": 10,
+                    "x": -1,
+                    "y": -0.8
+                },
+                "m_LevelFrontLeft": {
+                    "$type": 10,
+                    "x": 5.1,
+                    "y": 2.1
+                },
+                "m_LevelFrontRight": {
+                    "$type": 10,
+                    "x": 5.1,
+                    "y": 2.1
+                },
+                "m_LevelBackLeft": {
+                    "$type": 10,
+                    "x": 5,
+                    "y": 8.7
+                },
+                "m_LevelBackRight": {
+                    "$type": 10,
+                    "x": 5,
+                    "y": 8.7
+                },
+                "m_SmoothMinOffset": {
+                    "$type": 10,
+                    "x": 0,
+                    "y": 0
+                },
+                "m_SmoothMaxOffset": {
+                    "$type": 10,
+                    "x": 0,
+                    "y": 0
+                },
+                "m_HeightOffset": 0,
+                "m_AdditionalSmoothAreas": {
+                    "$id": 10,
+                    "$type": "11|Game.Prefabs.BuildingTerraformOverride+SubLot[], Game",
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_DontRaise": false,
+                "m_DontLower": false
+            },
+            {
+                "$id": 11,
+                "$type": "12|Game.Prefabs.ObjectSubAreas, Game",
+                "name": "ObjectSubAreas",
+                "active": true,
+                "m_SubAreas": {
+                    "$id": 12,
+                    "$type": "13|Game.Prefabs.ObjectSubAreaInfo[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        {
+                            "$id": 13,
+                            "$type": "14|Game.Prefabs.ObjectSubAreaInfo, Game",
+                            "m_AreaPrefab": $fstrref:"UnityGUID:866b31c2c60012b46a62efcdd4128d03",
+                            "m_NodePositions": {
+                                "$id": 14,
+                                "$type": "15|Unity.Mathematics.float3[], Unity.Mathematics",
+                                "$rlength": 17,
+                                "$rcontent": [
+                                    {
+                                        "$type": "16|Unity.Mathematics.float3, Unity.Mathematics",
+                                        "x": 40,
+                                        "y": 0,
+                                        "z": -48
+                                    },
+                                    {
+                                        "$type": 16,
+                                        "x": 40,
+                                        "y": 0,
+                                        "z": -8
+                                    },
+                                    {
+                                        "$type": 16,
+                                        "x": 32,
+                                        "y": 0,
+                                        "z": -8
+                                    },
+                                    {
+                                        "$type": 16,
+                                        "x": 24,
+                                        "y": 0,
+                                        "z": -16
+                                    },
+                                    {
+                                        "$type": 16,
+                                        "x": 8,
+                                        "y": 3.05175781E-05,
+                                        "z": -16
+                                    },
+                                    {
+                                        "$type": 16,
+                                        "x": 0,
+                                        "y": 0,
+                                        "z": -8
+                                    },
+                                    {
+                                        "$type": 16,
+                                        "x": -8,
+                                        "y": 3.05175781E-05,
+                                        "z": -16
+                                    },
+                                    {
+                                        "$type": 16,
+                                        "x": -24,
+                                        "y": 3.05175781E-05,
+                                        "z": -16
+                                    },
+                                    {
+                                        "$type": 16,
+                                        "x": -32,
+                                        "y": 0,
+                                        "z": -8
+                                    },
+                                    {
+                                        "$type": 16,
+                                        "x": -40,
+                                        "y": 0,
+                                        "z": -8
+                                    },
+                                    {
+                                        "$type": 16,
+                                        "x": -40,
+                                        "y": 0,
+                                        "z": -48
+                                    },
+                                    {
+                                        "$type": 16,
+                                        "x": -16,
+                                        "y": 0,
+                                        "z": -48
+                                    },
+                                    {
+                                        "$type": 16,
+                                        "x": -8,
+                                        "y": 0,
+                                        "z": -56
+                                    },
+                                    {
+                                        "$type": 16,
+                                        "x": -8,
+                                        "y": 0,
+                                        "z": -64
+                                    },
+                                    {
+                                        "$type": 16,
+                                        "x": 8,
+                                        "y": 3.05175781E-05,
+                                        "z": -64
+                                    },
+                                    {
+                                        "$type": 16,
+                                        "x": 8,
+                                        "y": 0,
+                                        "z": -56
+                                    },
+                                    {
+                                        "$type": 16,
+                                        "x": 16,
+                                        "y": 0,
+                                        "z": -48
+                                    }
+                                ]
+                            },
+                            "m_ParentMeshes": null
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "m_Meshes": {
+        "$id": 15,
+        "$type": "17|Game.Prefabs.ObjectMeshInfo[], Game",
+        "$rlength": 1,
+        "$rcontent": [
+            {
+                "$id": 16,
+                "$type": "18|Game.Prefabs.ObjectMeshInfo, Game",
+                "m_Mesh": $fstrref:"UnityGUID:6fb46d6f7965cad4e9e4d7f428249012",
+                "m_Position": {
+                    "$type": 16,
+                    "x": 0,
+                    "y": 0,
+                    "z": -31.6875
+                },
+                "m_Rotation": {
+                    "$type": "19|Unity.Mathematics.quaternion, Unity.Mathematics",
+                    "value": {
+                        "$type": "20|Unity.Mathematics.float4, Unity.Mathematics",
+                        "x": 0,
+                        "y": 1,
+                        "z": 0,
+                        "w": -4.371139E-08
+                    }
+                },
+                "m_RequireState": 0
+            }
+        ]
+    },
+    "m_Circular": false,
+    "m_ExternalLot": false,
+    "m_Position": {
+        "$type": 16,
+        "x": 0,
+        "y": 0,
+        "z": 0
+    },
+    "m_OverrideLotSize": {
+        "$type": "21|Unity.Mathematics.int2, Unity.Mathematics",
+        "x": 0,
+        "y": 0
+    },
+    "m_OverrideHeight": 0
+}

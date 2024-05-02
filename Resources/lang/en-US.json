@@ -1,4 +1,42 @@
 {
-  "Assets.NAME[CarProp]": "Example Name",
-  "Assets.DESCRIPTION[CarProp]": "Example Description"
+  "Assets.NAME[BusDepot_GarageUpgrade]": "Bus Depot - Garage Upgrade",
+  "Assets.DESCRIPTION[BusDepot_GarageUpgrade]": "Bus Depot - Garage Upgrade",
+
+  "Assets.NAME[PostOffice_GarageUpgrade]": "Post Office - Garage Upgrade",
+  "Assets.DESCRIPTION[PostOffice_GarageUpgrade]": "Post Office - Garage Upgrade",
+
+  "Assets.NAME[SubwayYard_GarageUpgrade]": "Subway Yard - Garage Upgrade",
+  "Assets.DESCRIPTION[SubwayYard_GarageUpgrade]": "Subway Yard - Garage Upgrade",
+
+  "Assets.NAME[TramDepot_GarageUpgrade]": "Tram Depot - Garage Upgrade",
+  "Assets.DESCRIPTION[TramDepot_GarageUpgrade]": "Tram Depot - Garage Upgrade",
+
+  "Assets.NAME[Crematorium_GarageUpgrade]": "Crematorium - Garage Upgrade",
+  "Assets.DESCRIPTION[Crematorium_GarageUpgrade]": "Crematorium - Garage Upgrade",
+
+
+  "Assets.NAME[FireStation_HelicopterExpansion]": "Fire Station - Helicopter Expansion",
+  "Assets.DESCRIPTION[FireStation_HelicopterExpansion]": "Fire Station - Helicopter Expansion",
+
+  "Assets.NAME[Hospital_HelicopterExpansion]": "Hospital - Helicopter Expansion",
+  "Assets.DESCRIPTION[Hospital_HelicopterExpansion]": "Hospital - Helicopter Expansion",
+
+  "Assets.NAME[PoliceHeadquarters_HelicopterExpansion]": "Police Headquarters - Helicopter Expansion",
+  "Assets.DESCRIPTION[PoliceHeadquarters_HelicopterExpansion]": "Police Headquarters - Helicopter Expansion",
+
+
+  "Assets.NAME[BusStation_SubwayUpgrade]": "Bus Station - Subway Upgrade",
+  "Assets.DESCRIPTION[BusStation_SubwayUpgrade]": "BusStation - SubwayUpgrade",
+
+  "Assets.NAME[Hospital_Expansion]": "Hospital - Expansion",
+  "Assets.DESCRIPTION[Hospital_Expansion]": "Hospital - Expansion",
+
+
+  "Assets.NAME[College_Expansion]": "College - Expansion",
+  "Assets.DESCRIPTION[College_Expansion]": "College - Expansion",
+
+  "Assets.NAME[University_Expansion]": "University - Expansion",
+  "Assets.DESCRIPTION[University_Expansion]": "University - Expansion"
+
+
 }

@@ -1,0 +1,40 @@
+{
+  "Assets.NAME[BusDepot_GarageUpgrade]": "公交总站 - 车库升级",
+  "Assets.DESCRIPTION[BusDepot_GarageUpgrade]": "公交总站 - 车库升级",
+
+  "Assets.NAME[PostOffice_GarageUpgrade]": "邮局 - 车库升级",
+  "Assets.DESCRIPTION[PostOffice_GarageUpgrade]": "邮局 - 车库升级",
+
+  "Assets.NAME[SubwayYard_GarageUpgrade]": "地铁总站 - 车库升级",
+  "Assets.DESCRIPTION[SubwayYard_GarageUpgrade]": "地铁总站 - 车库升级",
+
+  "Assets.NAME[TramDepot_GarageUpgrade]": "电车总站 - 车库升级",
+  "Assets.DESCRIPTION[TramDepot_GarageUpgrade]": "电车总站 - 车库升级",
+
+  "Assets.NAME[Crematorium_GarageUpgrade]": "火葬场 - 车库升级",
+  "Assets.DESCRIPTION[Crematorium_GarageUpgrade]": "火葬场 - 车库升级",
+
+
+  "Assets.NAME[FireStation_HelicopterExpansion]": "消防站 - 直升机再升级",
+  "Assets.DESCRIPTION[FireStation_HelicopterExpansion]": "消防站 - 直升机再升级",
+
+  "Assets.NAME[Hospital_HelicopterExpansion]": "医院 - 直升机再升级",
+  "Assets.DESCRIPTION[Hospital_HelicopterExpansion]": "医院 - 直升机再升级",
+
+  "Assets.NAME[PoliceHeadquarters_HelicopterExpansion]": "警察总局 - 直升机再升级",
+  "Assets.DESCRIPTION[PoliceHeadquarters_HelicopterExpansion]": "警察总局 - 直升机再升级",
+
+
+  "Assets.NAME[BusStation_SubwayUpgrade]": "公交终点站 - 地铁口升级",
+  "Assets.DESCRIPTION[BusStation_SubwayUpgrade]": "公交终点站 - 地铁口升级",
+
+  "Assets.NAME[Hospital_Expansion]": "医院 - 扩建",
+  "Assets.DESCRIPTION[Hospital_Expansion]": "医院 - 扩建",
+
+
+  "Assets.NAME[College_Expansion]": "学院制大学 - 扩建",
+  "Assets.DESCRIPTION[College_Expansion]": "学院制大学 - 扩建",
+
+  "Assets.NAME[University_Expansion]": "综合性大学 - 扩建",
+  "Assets.DESCRIPTION[University_Expansion]": "综合性大学 - 扩建"
+}
